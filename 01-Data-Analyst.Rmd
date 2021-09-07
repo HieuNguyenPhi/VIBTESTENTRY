@@ -1,0 +1,40 @@
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+
+tutorial::go_interactive(greedy=FALSE)
+```
+
+# Data Analyst Test
+
+<script src=https://cdn.datacamp.com/datacamp-light-latest.min.js></script>
+
+## Statistical thinking and programming (60%)
+
+### Question 1 {-}
+
+You are given the dataset called `insurance_dataset.csv` contains 1338 observations (rows) and 7 features (columns). The insurance data contains 4 numerical features (age, bmi, children, expenses) and 3 nominal features (sex, smoker and region). We are interested in which determinants are significant for predicting the insurance expenses.
+
+```{r ex="play_around", type="pre-exercise-code", tut = TRUE}
+insurance_dataset <- read.csv('insurance_dataset.csv', header = T)
+```
+
+```{r ex="play_around", type="sample-code", tut = TRUE}
+# Create a variable a, equal to 5
+
+
+# Print out a
+
+```
+
+## Critical thinking (30%)
+
+## Visualization (10%)
+
+All chapter sections start with a second-level (`##`) or higher heading followed by your section title, like the sections above and below here. You can have as many as you want within a chapter.
+
+### An unnumbered section {-}
+
+Chapters and sections are numbered by default. To un-number a heading, add a `{.unnumbered}` or the shorter `{-}` at the end of the heading, like in this section.

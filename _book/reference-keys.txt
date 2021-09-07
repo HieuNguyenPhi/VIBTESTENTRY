@@ -1,0 +1,8 @@
+about
+usage
+render-book
+preview-book
+data-analyst-test
+statistical-thinking-and-programming-60
+critical-thinking-30
+visualization-10

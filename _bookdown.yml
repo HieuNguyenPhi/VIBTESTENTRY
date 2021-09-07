@@ -1,0 +1,6 @@
+book_filename: "EntryTest"
+delete_merged_file: true
+repo: https://github.com/HieuNguyenPhi/VIB-ENTRY-TEST
+language:
+  ui:
+    chapter_name: "Section "
