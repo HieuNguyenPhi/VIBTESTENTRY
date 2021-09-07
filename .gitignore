@@ -17,7 +17,6 @@
 # RStudio files
 .Rproj.user/
 
-_bookdown_files
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
