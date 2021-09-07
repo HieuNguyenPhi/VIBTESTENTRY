@@ -1,5 +1,6 @@
 book_filename: "EntryTest"
 delete_merged_file: true
+output_dir: docs
 repo: https://github.com/HieuNguyenPhi/VIB-ENTRY-TEST
 language:
   ui:

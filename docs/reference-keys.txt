@@ -6,4 +6,3 @@ data-analyst-test
 statistical-thinking-and-programming-60
 critical-thinking-30
 visualization-10
-url-your-book-url-like-httpsbookdown.orgyihuibookdown
