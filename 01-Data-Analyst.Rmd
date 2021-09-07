@@ -1,28 +1,22 @@
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-
-tutorial::go_interactive(greedy=FALSE)
-```
-
 # Data Analyst Test
 
-<script src=https://cdn.datacamp.com/datacamp-light-latest.min.js></script>
 
-## Statistical thinking and programming (60%)
+```{r, include=FALSE}
+tutorial::go_interactive()
+```
+
+# Statistical thinking and programming (60%)
 
 ### Question 1 {-}
 
 You are given the dataset called `insurance_dataset.csv` contains 1338 observations (rows) and 7 features (columns). The insurance data contains 4 numerical features (age, bmi, children, expenses) and 3 nominal features (sex, smoker and region). We are interested in which determinants are significant for predicting the insurance expenses.
 
-```{r ex="play_around", type="pre-exercise-code", tut = TRUE}
+```{r ex="play_around", type="pre-exercise-code"}
 insurance_dataset <- read.csv('insurance_dataset.csv', header = T)
 ```
 
 ```{r ex="play_around", type="sample-code", tut = TRUE}
-# Create a variable a, equal to 5
+
 
 
 # Print out a
@@ -30,6 +24,33 @@ insurance_dataset <- read.csv('insurance_dataset.csv', header = T)
 ```
 
 ## Critical thinking (30%)
+
+```{r ex="create_a", type="pre-exercise-code"}
+b <- 5
+```
+
+```{r ex="create_a", type="sample-code"}
+# Create a variable a, equal to 5
+
+
+# Print out a
+
+```
+
+```{r ex="create_a", type="solution"}
+# Create a variable a, equal to 5
+a <- 5
+
+# Print out a
+a
+```
+
+```{r ex="create_a", type="sct"}
+ex () %>% check_object("a")
+test_output_contains("a", incorrect_msg = "Make sure to print `a`.")
+success_msg("Great!")
+```
+
 
 ## Visualization (10%)
 
